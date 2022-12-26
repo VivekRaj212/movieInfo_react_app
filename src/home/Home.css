@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.card:hover {
+
+    transform: translate3D(0,-1px,0) scale(1.03);
+    cursor: pointer;
+    border: 2px inset saddlebrown;
+}
+
+.heading {
+
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+    color: rgb(247, 244, 244);
+}
+
+.heading h2 {
+
+    margin-top: -12rem;
+    margin-left: 1.5rem;
+    margin-bottom: -2rem;
+    color: bisque;
+}
+
+@media only screen and (max-width: 550px) {
+
+  .heading h2 {
+
+    margin-top: -12rem;
+    margin-left: -1.7rem;
+    margin-bottom: -2rem;
+    color: bisque;
+
+  }
+  
+}
+
+.active {
+
+    color: brown;
+    font-size: 24px;
+}
+
+.pagination {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.pagination button {
+
+    background-color: rgb(151, 12, 12);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.pagination button:hover {
+
+    background-color: rgb(204, 10, 10);
+}
+
+button {
+    background-color: rgb(81, 138, 6);
+    padding: 6px 9px 6px 9px;
+    border-radius: 7px;
+    color: white;
+}
+.background {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.background img {
+  
+   width: 100vw;
+   height: 55vh;
+   object-fit: cover;
+   opacity: 0.2;
+}
+
+
+
+button:hover {
+
+    background-color: rgb(114, 197, 5) ;
+}
+
+button span {
+
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.number {
+
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+  }
+
+  .card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    
+  }
+
+  .card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    min-height: 250px;
+  }
+
+  .tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .tag-teal {
+    background-color: #d80101d0;
+  }
+
+  .card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+  }
+
+  .user {
+    display: flex;
+    margin-top: auto;
+  }
+.user button {
+
+    border-radius: 5px;
+}
+.top {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -25rem;
+    margin-left: 30px;  
+}
+
+.top h2 {
+  color: #fff;
+  font-size: 90px;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 550px) {
+.top h2 {
+  margin-top: 4.5rem;
+    color: #fff;
+    font-size: 60px;
+    
+}
+.background img {
+  
+  width: 100vw;
+  height: 55vh;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+}
+
+.top p {
+
+    color: rgb(205, 219, 0);
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+
+ 

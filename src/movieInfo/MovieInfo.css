@@ -1,0 +1,78 @@
+.movie_container {
+
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+ .starring {
+
+    display: flex;
+} 
+
+
+.actor_name {
+    display: flex;
+    text-align: center;
+    color: bisque;
+    margin-top: 4px;
+}
+
+.hcolor{
+
+    color: burlywood;
+}
+#head2 {
+
+    color: burlywood;
+    text-align: center;
+}
+#head3 {
+    color: burlywood;
+    text-align: center;
+
+}
+
+.summary .movie_name {
+
+    color: bisque;
+}
+.summary #text {
+
+    color: white;
+}
+
+.rate .number {
+
+    color: yellow;
+    font-size: 18px;
+
+}
+.table {
+
+    color: bisque;
+}
+
+strong {
+
+    color: rgb(183, 196, 5);
+}
+.blendimage {
+
+    filter: blur(1);
+}
+.blendimage:hover {
+
+
+    filter: brightness(1.25);
+    cursor: pointer;
+
+}
+
+.actor_pic:hover {
+
+    filter: brightness(0.5);
+    cursor: pointer;
+}

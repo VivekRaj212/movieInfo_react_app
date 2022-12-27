@@ -85,7 +85,7 @@ const MovieInfo = () => {
 
             <tr>
 
-              <td> <p className='para'>Streamed on </p></td>
+              <td> <p className='para'>Streamed on:- </p></td>
 
               <td>{data?.network?.name}</td>
 
@@ -93,7 +93,7 @@ const MovieInfo = () => {
 
             <tr>
 
-              <td> <p className='para'>Schedule </p></td>
+              <td> <p className='para'>Schedule:- </p></td>
 
               <td>{data?.schedule?.days}</td>
 
@@ -101,7 +101,7 @@ const MovieInfo = () => {
 
             <tr>
 
-              <td> <p className='para'>Status</p></td>
+              <td> <p className='para'>Status:-</p></td>
 
               <td>{data?.status}</td>
 
@@ -109,7 +109,7 @@ const MovieInfo = () => {
 
             <tr>
 
-              <td><p className='para'>Genres </p> </td>
+              <td><p className='para'>Genres:- </p> </td>
 
               <td> {data?.genres?.join(",")}</td>
 

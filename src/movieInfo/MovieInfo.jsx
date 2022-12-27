@@ -137,7 +137,7 @@ const MovieInfo = () => {
 
               <img src={item?.person?.image?.medium} className='actor_pic'  />
 
-              <p className='actor_name'>{item?.person?.name} as <strong>{item?.character?.name}</strong></p>
+              <p className='actor_name'>{item?.person?.name}&nbsp;as&nbsp;<strong>{item?.character?.name}</strong></p>
 
            </div>
 

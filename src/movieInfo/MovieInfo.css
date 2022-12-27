@@ -23,6 +23,8 @@
 .hcolor{
 
     color: burlywood;
+    position: relative;
+    top: -6px;
 }
 #head2 {
 
@@ -76,3 +78,16 @@ strong {
     filter: brightness(0.5);
     cursor: pointer;
 }
+
+#fix {
+
+    display: flex;
+    position: absolute;
+    left: 2.2rem;
+}
+
+#fix button {
+
+    border-radius: 40px;
+}
+

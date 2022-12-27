@@ -1,7 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
 import "./MovieInfo.css";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
+import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
+
+
 
 const MovieInfo = () => {
 
@@ -48,11 +51,15 @@ const MovieInfo = () => {
     }, [])
 
 
-  return (
-    <div className='movie_container'>
+  return (<>
 
+        <div id='fix'>
+        <Link to="/"><button><BsFillArrowLeftCircleFill style={{fontSize: "27px",padding: "auto 10px auto 10px"}}/>&nbsp;Back</button></Link>
+        </div>
+       
+    <div className='movie_container'> 
+    
       <h1 className='hcolor'>TV Bland</h1>
-
       <div>
 
         <div className='detailcard'>
@@ -150,6 +157,7 @@ const MovieInfo = () => {
        </div>
 
     </div>
+    </>
   )
 }
 

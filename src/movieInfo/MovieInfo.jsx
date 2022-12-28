@@ -3,6 +3,7 @@ import axios from 'axios';
 import "./MovieInfo.css";
 import {Link, useParams} from "react-router-dom";
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs';
+import Star from '../star/Star';
 
 
 
@@ -68,7 +69,7 @@ const MovieInfo = () => {
 
         <div className='rate'>
 
-       <p className='number'>{data?.rating?.average / 2}⭐</p>
+       <p className='number'><Star stars={data?.rating?.average / 2}/></p>
 
         </div>
 
